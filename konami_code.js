@@ -7,7 +7,7 @@ function init() {
   
   document.body.addEventListener('keydown', function(e) {
      
-    if (e.key === code[i]) {
+    if (e.code === code[i]) {
         i++;
         
       if(i === code.length){
