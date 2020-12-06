@@ -6,7 +6,7 @@ function init() {
   const body = document.getElementsByTagName('body');
   
   document.body.addEventListener('keydown', function(e) {
-     console.log("e.key");
+     console.log(e.key);
     if (e.key === code[i]) {
       
     
