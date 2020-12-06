@@ -6,7 +6,6 @@ function init() {
   const body = document.getElementsByTagName('body');
   
   document.body.addEventListener('keydown', function(e) {
-     console.log("Check Mate")
      
     if (e.which === code[i]) {
         i++;
