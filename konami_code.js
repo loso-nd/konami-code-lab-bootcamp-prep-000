@@ -5,7 +5,7 @@ function init() {
   let i = 0;
   const body = document.getElementsByTagName('body');
   
-  document.body.addEventListener('keydown', function(e) {
+  body.addEventListener('keydown', function(e) {
     console.log(e.which);
     
     if (e.which === code[i]) {
