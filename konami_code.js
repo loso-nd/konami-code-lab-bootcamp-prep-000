@@ -9,7 +9,7 @@ function init() {
   body.addEventListener('keydown', function(e) {
     console.log(e.which);
     
-    if (e.which === code[i]) {
+    if (e.detail === code[i]) {
       
     
         i++;
