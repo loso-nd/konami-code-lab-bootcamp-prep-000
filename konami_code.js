@@ -6,8 +6,10 @@ function init() {
   const body = document.getElementsByTagName('body');
   
   document.body.addEventListener('keydown', function(e) {
-  
+     console.log("e.key");
     if (e.key === code[i]) {
+      
+    
         i++;
         console.log('Talk to me nice');
       if(i === code.length){
@@ -15,7 +17,8 @@ function init() {
           i=0;
           
         }
-      } 
+      }
+   
       else {
           i=0; 
     }
