@@ -12,7 +12,7 @@ function init() {
       
     
         i++;
-        // console.log('Talk to me nice');
+        console.log('Talk to me nice');
         
       if(i === code.length){
  
