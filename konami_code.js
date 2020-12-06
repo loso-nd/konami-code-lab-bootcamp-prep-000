@@ -2,10 +2,11 @@ const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
 function init() {
 
   let i = 0
+  const body = document.getElementsByTagName('body')[0];
   document.body.addEventListener('keydown', function(e) {
-    const key = e.which
+     console.log("Check Mate")
      
-    if (code[i] === key) {
+    if (e.which === code[i]) {
         i++;
         
       if(i === code.length){
@@ -21,6 +22,27 @@ function init() {
 }
 
 init();
+
+  // let index = 0;
+  // const body = document.getElementsByTagName('body')[0];
+
+  // body.addEventListener('keydown', function(e) {
+  //   const key = parseInt(e.detail || e.which);
+  //   console.log(key);
+
+  // if (key === code[index]) {
+  //     index++;
+
+  //     if (index === code.length) {
+  //       alert("Hurray!");
+
+  //       index = 0;
+  //     }
+  //   } else {
+  //     index = 0;
+  //   }
+  // });
+// }
 
 
 
