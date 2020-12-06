@@ -6,12 +6,12 @@ function init() {
   const body = document.getElementsByTagName('body');
   
   document.body.addEventListener('keydown', function(e) {
-     console.log(e.which);
+    // console.log(e.which);
     if (e.which === code[i]) {
       
     
         i++;
-        console.log('Talk to me nice');
+        // console.log('Talk to me nice');
       if(i === code.length){
         alert('Congrats! My Guy!');
           i=0;
