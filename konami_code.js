@@ -9,7 +9,7 @@ function init() {
   
     if (e.key === code[i]) {
         i++;
-        
+        console.log('Talk to me nice');
       if(i === code.length){
         alert('Congrats! My Guy!');
           i=0;
