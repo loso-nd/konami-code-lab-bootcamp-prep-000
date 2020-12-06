@@ -16,7 +16,7 @@ function init() {
         
       if(i === code.length){
  
-        window.alert("Hurray!");
+        alert("Hurray!");
         
           i=0;
           
