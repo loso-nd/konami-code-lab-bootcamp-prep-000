@@ -15,7 +15,7 @@ function init() {
         // console.log('Talk to me nice');
         
       if(i === code.length){
-        
+        console.log("Why wont you work?")
         window.alert("Hurray!");
         
           i=0;
